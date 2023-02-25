@@ -3,7 +3,7 @@
     "description": "Laravel ui package for tabler presets.",
     "license": "MIT",
     "keywords": ["Laravel UI", "bootstrap", "tabler", "laravel tabler"],
-    "homepage": "https://",
+    "homepage": "https://github.com/luisfayre/laravel-tabler-ui",
     "type": "library",
     "authors": [
         {
