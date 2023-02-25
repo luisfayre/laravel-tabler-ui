@@ -1,9 +1,5 @@
 # Laravel Tabler UI
 
-<a href="https://packagist.org/packages/godruoyi/laravel-tabler-ui"><img src="https://poser.pugx.org/godruoyi/laravel-tabler-ui/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/godruoyi/laravel-tabler-ui"><img src="https://poser.pugx.org/godruoyi/laravel-tabler-ui/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/godruoyi/laravel-tabler-ui"><img src="https://poser.pugx.org/godruoyi/laravel-tabler-ui/license.svg" alt="License"></a>
-
 ## Thanks [godruoyi](https://github.com/godruoyi) 🎉
 
 For creating the original package [laravel-tabler-ui](https://github.com/godruoyi/laravel-tabler-ui), but don't worked for 6.0 version, so now is compatible.
