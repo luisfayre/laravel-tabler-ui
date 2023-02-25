@@ -21,9 +21,13 @@ class TablerServiceProvider extends ServiceProvider
                 AuthCommand::class,
             ]);
 
+            // $this->publishes([
+            //     __DIR__.'/stubs/zh_CN.json' => resource_path('lang/zh_CN.json')
+            // ], 'laravel-tabler-lang-cn');
+
             $this->publishes([
-                __DIR__.'/stubs/zh_CN.json' => resource_path('lang/zh_CN.json')
-            ], 'laravel-tabler-lang-cn');
+                __DIR__.'/stubs/libs' => public_path('libs')
+            ], 'tabler-libs');
         }
     }
 

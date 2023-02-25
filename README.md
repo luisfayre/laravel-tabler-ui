@@ -43,6 +43,12 @@ in `composer.json`
 
 ## Usage
 
+First publish the js libs `public/libs`
+
+```
+php artisan vendor:publish --tag=tabler-libs
+```
+Second 
 ```
 // Generate basic scaffolding...
 php artisan ui tabler
@@ -55,15 +61,6 @@ php artisan ui tabler --auth
 
 More use go to [Laravel Ui Official Documentation](https://github.com/laravel/ui).
 
-If you want use Chinese language for authentication views, you can publish `zh_CN.json` to `resource/lang`:
-
-```
-php artisan vendor:publish --tag=laravel-tabler-lang-cn
-```
-
-## Preview
-
-[OnLine preview](https://laravel-tabler-ui-preview.godruoyi.com/)
 
 ## Contributing
 

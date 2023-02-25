@@ -16,7 +16,7 @@ class Tabler
     /**
      * The version.
      */
-    const VERSION = '0.0.1';
+    const VERSION = '0.0.3';
 
     /**
      * Default theme for dashbarod.
@@ -84,7 +84,7 @@ class Tabler
      */
     protected static function presetInstall(UiCommand $command)
     {
-        Bootstrap::install();
+        //Bootstrap::install();
         TablerPreset::install();
 
         $command->info('Tabler scaffolding installed successfully.');
