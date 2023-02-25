@@ -4,20 +4,41 @@
 <a href="https://packagist.org/packages/godruoyi/laravel-tabler-ui"><img src="https://poser.pugx.org/godruoyi/laravel-tabler-ui/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/godruoyi/laravel-tabler-ui"><img src="https://poser.pugx.org/godruoyi/laravel-tabler-ui/license.svg" alt="License"></a>
 
+## Thanks [godruoyi](https://github.com/godruoyi) 🎉
+
+For creating the original package [laravel-tabler-ui](https://github.com/godruoyi/laravel-tabler-ui), but don't worked for 6.0 version, so now is compatible.
+
 ## Introduction
 
-Laravel ui package for tabler presets.
+Now laravel ui implement a premium and open source dashboard template with a responsive and high-quality UI.
+<br>
+<br>
+<p align="center">
+<a href="https://github.com/tabler/tabler"><img src="https://raw.githubusercontent.com/tabler/tabler/dev/src/static/logo.svg" alt="A premium and open source dashboard template with a responsive and high-quality UI." width="300"></a><br><br>
+
+</p>
 
 ## Installing
 
-```shell
-$ composer require godruoyi/laravel-tabler-ui -vvv
+in `composer.json` 
+
+```php
+"repositories": [
+  {
+    "type": "git",
+    "url": "https://github.com/luisfayre/laravel-tabler-ui"
+  }
+],
 ```
 
-The official version hasn't been released, you can install dev-master via:
-
-```shell
-$ composer require godruoyi/laravel-tabler-ui:dev-master
+```php
+"require": {
+.
+.
+.
+.
+"luisfayre/laravel-tabler-ui": "dev-main" <-- import
+    },
 ```
 
 ## Usage
@@ -48,8 +69,8 @@ php artisan vendor:publish --tag=laravel-tabler-lang-cn
 
 You can contribute in one of three ways:
 
-1. File bug reports using the [issue tracker](https://github.com/godruoyi/laravel-tabler-ui/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/godruoyi/laravel-tabler-ui/issues).
+1. File bug reports using the [issue tracker](https://github.com/luisfayre/laravel-tabler-ui/issues).
+2. Answer questions or fix bugs on the [issue tracker](https://github.com/luisfayre/laravel-tabler-ui/issues).
 
 ## License
 
