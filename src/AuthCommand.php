@@ -1,6 +1,6 @@
 <?php
 
-namespace Godruoyi\LaravelTablerUi;
+namespace Luisfayre\LaravelTablerUi;
 
 use Laravel\Ui\AuthCommand as LaravelAuthCommand;
 
